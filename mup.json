@@ -1,0 +1,26 @@
+{
+  "servers": [
+    {
+      "host": "ec2-54-71-138-250.us-west-2.compute.amazonaws.com",
+      "username": "ubuntu",
+      "pem": "~/Desktop/code-demo.pem",
+      "env": {}
+    }
+  ],
+
+  "setupMongo": true,
+  "setupNode": true,
+  "nodeVersion": "4.4.7",
+  "setupPhantom": false,
+  "enableUploadProgressBar": true,
+  "appName": "MeteorSample",
+  "app":"~/Documents/HBSCode/MeteorExample",
+
+  "env": {
+    "PORT": 80,
+    "ROOT_URL": "http://ec2-54-71-138-250.us-west-2.compute.amazonaws.com",
+    "MONGO_URL": "mongodb://localhost:27017/meteor"
+  },
+  "deployCheckWaitTime": "120"
+
+}
